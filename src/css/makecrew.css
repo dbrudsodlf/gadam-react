@@ -1,15 +1,17 @@
 .crew_body4 {
-  display: flex;
+  margin-top:20px;
+  height:100vh;
   margin: auto;
   width: 60%;
-  padding: 10px;
   background-color: white;
-  border: 3px solid white;
-  margin-top:20px;
+  padding-top:30px;
+  margin-bottom:10px;
+
 }
 
 .makecrewform {
-    margin: 0;
+  margin-left:30%;
+    margin-top:40px;
     width: 100%;
 }
 
@@ -20,9 +22,15 @@
 }
 
 .make-crew{
-  font-size:25px;
-  padding-top:25px;
-  padding-bottom:20px;
+  font-size:30px;
+  padding-top:50px;
+  margin-left:50px;
+  text-align: left;
+  margin-bottom: 50px;
+  border-bottom: 3px solid rgb(247, 235, 71);
+  width:200px;
+  padding:5px;
+  white-space: nowrap;
 }
 
 #donebtn {
@@ -36,6 +44,20 @@ border:2px solid darkgray;
 
 #donebtn :hover{
   border:2px solid darkgray;
+}
+#donebtn {
+  font-size:15px;
+  padding:10px;
+  width:150px;
+  margin-top:50px;
+  border:3px solid gray;
+  background-color: white;
+  border-radius: 20px;
+  margin-left:70%;
+}
+
+#donebtn:hover{
+  background-color: rgb(247, 235, 71);
 }
 table {
 	border-collapse: collapse;

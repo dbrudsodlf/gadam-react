@@ -4,11 +4,10 @@ import { NavLink } from 'react-router-dom'
 
 function MakeCrew () {
   return (
-    <div>
       <div className="crew_body4">
+      <h2 className="make-crew">크루 모집하기</h2>
         <div className="makecrew">
           <form class='makecrewform'>
-            <h1 className="make-crew">크루 모집하기</h1><br />
             <table>
               <tbody>
                 <tr><td>크루명</td>
@@ -58,22 +57,20 @@ function MakeCrew () {
                   <td><textarea cols={50} rows={5} defaultValue={"이곳에 내용 작성"} /></td></tr>
                 <tr><td>첨부파일</td>
                   <td><input type="file" name="FileName" /></td></tr>
-                <tr><td /><td>
+                
                     {/* 나중에는 이 코드 써서 내용 보내야할둡.. 일단 페이지연결이 안되길래
         밑에 버튼으로 하나 더 만들어놧서ㅜㅜㅜ
         <form action="opened.html">
             <input type="submit" value="개설완료">
         </form>
         */}
-                  <NavLink id='donebtn' to='/mypage'>개설완료</NavLink>
-                </td>
-                </tr>
               </tbody>
             </table>
+            <li><NavLink id='donebtn' to='/mypage'>개설완료</NavLink></li> 
           </form>
+       
         </div>
       </div>
-    </div>
   )
 }
 

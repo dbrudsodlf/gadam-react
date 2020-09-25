@@ -4,12 +4,11 @@ import { NavLink } from 'react-router-dom'
 
 function CrewSetting () {
   return (
-    <div>
       <div className="reset_crew">
+         <h2 className='title-s'>내 크루 관리</h2>
         <div className='settingcrew'>
+       
           <form className='setting_form'>
-            <h1 className='title-s'>내 크루 관리</h1>
-            <br />
             <table>
               <tbody>
                 <tr>
@@ -78,18 +77,14 @@ function CrewSetting () {
                 <tr>
                   <td>첨부파일</td>
                   <td><input type="file" name="FileName" /></td>
-                </tr>
-                <tr><td />
-                  <td>
-                    <li><NavLink to='/mypage' id='fixdone'>수정완료</NavLink></li>
-                  </td>
-                </tr>
+                </tr>            
               </tbody>
             </table>
+            <li><NavLink to='/mypage' id='fixdone'>수정완료</NavLink></li>
           </form>
         </div>
       </div>
-    </div>
+
   )
 }
 
