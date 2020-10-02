@@ -128,7 +128,7 @@ function NewComponent () {
       <div>
         <div className="slide-container">
           <div class="todays-hot">
-            <b><p>HOT CREW</p></b>
+            <b><p >HOT CREW</p></b>
           </div>
           <Slide easing='ease'>
             <div className="each-slide">
@@ -227,97 +227,98 @@ function NewComponent () {
           <div className="todays-crew-info">
             <li className="time"> 9:00 </li>
             <div className="info">
-              <span className="title">등산 크루</span>
-              <span className="hashtags">
+              <div className="title">등산 크루</div>
+              <div className="hashtags">
                 <li>#여자</li>
                 <li>#등산</li>
                 <li>#서울</li>
-              </span>
+              </div>
             </div>
             <NavLink to='/detailinfo' className='joinbtn'><p>참여하기</p></NavLink>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 11:00 </li>
             <div className="info">
-              <span className="title">러닝 크루</span>
-              <span className="hashtags">
+              <div className="title">러닝 크루</div>
+              <div className="hashtags">
                 <li>#남자</li>
                 <li>#오전</li>
                 <li>#서울</li>
-              </span>
+              </div>
             </div>
             <NavLink to='/detailinfo' className='joinbtn'><p>참여하기</p></NavLink>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 15:00 </li>
             <div className="info">
-              <span className="title">사이클 크루</span>
-              <span className="hashtags">
+              <div className="title">사이클 크루</div>
+              <div className="hashtags">
                 <li>#무관</li>
                 <li>#사이클</li>
                 <li>#서울</li>
-              </span>
+              </div>
             </div>
-           <p  className='joindonebtn'>모집마감</p>
+            <li className='joindonebtn'><p>모집마감</p></li>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 17:00 </li>
             <div className="info">         
-              <span className="title">한강러닝 크루</span>
-              <span className="hashtags">
+              <div className="title">한강러닝 크루</div>
+              <div className="hashtags">
                 <li>#남자</li>
                 <li>#러닝</li>
                 <li>#대전</li>
-              </span>
+              </div>
             </div>
             <NavLink to='/detailinfo' className='joinfastbtn'><p>마감임박</p></NavLink>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 18:00 </li>
             <div className="info">
-              <span className="title">탁구 크루</span>
-              <span className="hashtags">
+              <div className="title">탁구 크루</div>
+              <div className="hashtags">
                 <li>#무관</li>
                 <li>#탁구</li>
                 <li>#대전</li>
-              </span>
+              </div>
             </div>
             <NavLink to='/detailinfo' className='joinbtn'><p>참여하기</p></NavLink>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 19:00 </li>
             <div className="info">
-              <span className="title">배드민턴크루</span>
-              <span className="hashtags">
+              <div className="title">배드민턴크루</div>
+              <div className="hashtags">
                 <li>#남자</li>
                 <li>#오후</li>
                 <li>#부산</li>
-              </span>
+              </div>
             </div>
             <NavLink to='/detailinfo' className='joinbtn'><p>참여하기</p></NavLink>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 20:00 </li>
             <div className="info">
-              <span className="title">탁구 크루</span>
-              <span className="hashtags">
+              <div className="title">탁구 크루</div>
+              <div className="hashtags">
                 <li>#무관</li>
                 <li>#탁구</li>
                 <li>#부천</li>
-              </span>
+              </div>
             </div>
             {/* <a className="joindonebtn" href='/'>모집마감</a> */}
-            <p  className='joindonebtn'>모집마감</p>
+      
+           <li className='joindonebtn'><p>모집마감</p></li>
           </div>
           <div className="todays-crew-info">
             <li className="time"> 22:00 </li>
             <div className="info">
-              <span className="title">밤수영 크루</span>
-              <span className="hashtags">
+              <div className="title">밤수영 크루</div>
+              <div className="hashtags">
                 <li>#남자</li>
                 <li>#수영</li>
                 <li>#인천</li>
-              </span>
+              </div>
             </div>
             {/* <a className="joinfastbtn" href='/'>마감임박</a> */}
             <NavLink to='/detailinfo' className='joinfastbtn'><p>마감임박</p></NavLink>
@@ -330,7 +331,7 @@ function NewComponent () {
           <span className="mainjoin" href='/'>나만의 크루를 모집해보세요!</span>
         </NavLink>
       </div>
-      <div className="main-paging">
+      {/* <div className="main-paging">
         <div className="todayscrew-paging">
           <a className="prev" href='/'>&lt;</a>
           <a href='/' className="checknum">1</a>
@@ -340,7 +341,7 @@ function NewComponent () {
           <a href='/'>5</a>
           <a className='next' href='/'>&gt;</a>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -51,19 +51,22 @@ function NewComponent2 () {
           <tr>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'golf-ball']} size='2x' />
+                <div id="border"><FontAwesomeIcon icon={['fa', 'golf-ball']} size='2x' /></div>
                 <i className="sportsname">골프</i>
               </NavLink>
             </td>
             <td>
               <NavLink to='/crewlist'>
+              <div id="border">
                 <FontAwesomeIcon icon={['fa', 'basketball-ball']} size='2x' />
+                </div>
                 <i className="sportsname">농구</i>
               </NavLink>
             </td>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'hiking']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'hiking']} size='2x' /></div>
                 <i className="sportsname">등산</i>
               </NavLink>
             </td>
@@ -71,19 +74,22 @@ function NewComponent2 () {
           <tr>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'bowling-ball']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'bowling-ball']} size='2x' /></div>
                 <i className="sportsname">러닝</i>
               </NavLink>
             </td>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'bowling-ball']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'bowling-ball']} size='2x' /></div>
                 <i className="sportsname">볼링</i>
               </NavLink>
             </td>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'biking']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'biking']} size='2x' /></div>
                 <i className="sportsname">사이클</i>
               </NavLink>
             </td>
@@ -91,19 +97,22 @@ function NewComponent2 () {
           <tr>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'futbol']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'futbol']} size='2x' /></div>
                 <i className="sportsname">축구</i>
               </NavLink>
             </td>
             <td>
               <NavLink to='/crewlist'>
-                <FontAwesomeIcon icon={['fa', 'table-tennis']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'table-tennis']} size='2x' /></div>
                 <i className="sportsname">테니스</i>
               </NavLink>
             </td>
             <td>
               <NavLink to='/ectcrew'>
-                <FontAwesomeIcon icon={['fa', 'plus']} size='2x' />
+              <div id="border">
+                <FontAwesomeIcon icon={['fa', 'plus']} size='2x' /></div>
                 <i className="sportsname">기타</i>
               </NavLink>
             </td>

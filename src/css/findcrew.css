@@ -15,11 +15,20 @@
   color:rgb(56, 56, 56);
   border-radius:10px;
   font-size:70px;
-  margin:30px;
-  margin-bottom:7px;
-  padding-top: 14px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+ 
 }
-
+#border{
+  border:solid 4px rgb(255, 217, 0);
+  border-radius: 10px;
+  margin-bottom:20px;
+  margin-top:30px;
+  
+}
+#border:hover{
+  background-color: rgb(255, 249, 164);
+}
 .sportsname{
   font-size:17px;
   display:flex;
@@ -36,7 +45,7 @@
 .crewicon_table td, th a{
   text-align: center;
   font-family: 'Do Hyeon', sans-serif;
-  padding:15px;
+  padding:30px;
 }
 
 .center_body3 {
